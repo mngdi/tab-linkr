@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%; /* 100% + 10px + 10px adds buttom scroll because of the left and right padding so we use box sizing to adjust that*/
+    box-sizing: border-box;
+    border: 1px solid #2E1A60;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background: #2E1A60;
+    color: white;
+    padding: 10px 20px;/*10 for top and bottom 20 for left and right*/
+    border: 1px solid #2E1A60;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+#delete-btn{
+    color: #2E1A60;
+    background: white;
+    border: 1px solid #2E1A60;
+}
+
+button:hover{
+    background: #645097;
+}
+
+#delete-btn:hover{
+    background: #9385b6;
+}
+
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a{
+    color: #2E1A60;
+    text-decoration: none;
+}
